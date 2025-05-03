@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    /* Font Families */
+    --font-system-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+    /* Apple-style Shadows */
+    --shadow-apple: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    --shadow-apple-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-apple-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+    /* Apple Blue Color Scale */
+    --color-apple-blue: #007AFF;
+    --color-apple-blue-50: #E5F2FF;
+    --color-apple-blue-100: #CCE5FF;
+    --color-apple-blue-200: #99CBFF;
+    --color-apple-blue-300: #66B2FF;
+    --color-apple-blue-400: #3399FF;
+    --color-apple-blue-500: #007AFF;
+    --color-apple-blue-600: #0062CC;
+    --color-apple-blue-700: #004999;
+    --color-apple-blue-800: #003166;
+    --color-apple-blue-900: #001833;
+  }
