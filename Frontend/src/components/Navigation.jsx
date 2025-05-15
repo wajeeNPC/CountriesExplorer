@@ -104,13 +104,13 @@ const Navigation = ({ isLoggedIn, setIsLoggedIn }) => {
               </Link>
             ))}
             
-            <button
+            {/* <button
               onClick={toggleDarkMode}
               className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
               aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </button>
+            </button> */}
             
             {isLoggedIn ? (
               <button
@@ -133,13 +133,13 @@ const Navigation = ({ isLoggedIn, setIsLoggedIn }) => {
           
           {/* Mobile menu button */}
           <div className="flex items-center md:hidden">
-            <button
+            {/* <button
               onClick={toggleDarkMode}
               className="p-2 rounded-full text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 mr-2 transition-colors"
               aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </button>
+            </button> */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
